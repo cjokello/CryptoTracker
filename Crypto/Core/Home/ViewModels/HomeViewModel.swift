@@ -13,10 +13,10 @@ class HomeViewModel: ObservableObject {
     init() {
         // the code below was meant to imitate downloading data from the API
         
-//        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
 //            self.allCoins.append(DeveloperPreview.instance.coin)
 //            self.portfolioCoins.append(DeveloperPreview.instance.coin)
-//        }
+        }
         
         addSubscribers()
     }

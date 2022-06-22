@@ -3,6 +3,7 @@ import SwiftUI
 struct HomeView: View {
     
     @EnvironmentObject private var vm: HomeViewModel
+    
     @State private var showPortfolio: Bool = false
     @State private var showPortfolioView: Bool = false
     
@@ -49,7 +50,7 @@ struct HomeView_Previews: PreviewProvider {
                 .navigationBarHidden(true)
         }
         .environmentObject(dev.homeVM)
-//        .preferredColorScheme(.dark)
+        .preferredColorScheme(.dark)
     }
 }
 

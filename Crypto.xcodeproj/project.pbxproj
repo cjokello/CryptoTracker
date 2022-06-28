@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8408BEC2285237EF00342E84 /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8408BEC1285237EF00342E84 /* CryptoApp.swift */; };
-		8408BEC4285237EF00342E84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8408BEC3285237EF00342E84 /* ContentView.swift */; };
 		8408BEC6285237F400342E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8408BEC5285237F400342E84 /* Assets.xcassets */; };
 		8408BEC9285237F400342E84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8408BEC8285237F400342E84 /* Preview Assets.xcassets */; };
 		8408BED128523BA900342E84 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8408BED028523BA900342E84 /* Color.swift */; };
@@ -54,7 +53,6 @@
 /* Begin PBXFileReference section */
 		8408BEBE285237EF00342E84 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8408BEC1285237EF00342E84 /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
-		8408BEC3285237EF00342E84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8408BEC5285237F400342E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8408BEC8285237F400342E84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8408BED028523BA900342E84 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 				8408BEE128531E5000342E84 /* Models */,
 				8408BECF28523B9B00342E84 /* Extensions */,
 				8408BED228523EF400342E84 /* Core */,
-				8408BEC3285237EF00342E84 /* ContentView.swift */,
 				8408BEC5285237F400342E84 /* Assets.xcassets */,
 				8408BEC7285237F400342E84 /* Preview Content */,
 			);
@@ -405,7 +402,6 @@
 				8428AB962862619200C3559C /* XMarkButton.swift in Sources */,
 				84E98C1E286A26A1007E9D72 /* Date.swift in Sources */,
 				8428AB7528602E2900C3559C /* HomeViewModel.swift in Sources */,
-				8408BEC4285237EF00342E84 /* ContentView.swift in Sources */,
 				8428AB842860A2D000C3559C /* LocalFileManager.swift in Sources */,
 				8428AB9028624BF200C3559C /* MarketDataModel.swift in Sources */,
 				8408BED728523F3F00342E84 /* HomeView.swift in Sources */,

@@ -2,15 +2,16 @@ import SwiftUI
 
 struct XMarkButton: View {
     
-    @Environment(\.dismiss) private var dismiss
+    @Environment(\.dismiss) var dismiss
     
-    var body: some View {
-        Button(action: {
+    var body: some View {        
+        Button {
             dismiss()
-        }, label: {
+        } label: {
             Image(systemName: "xmark")
                 .font(.headline)
-        })
+        }
+
     }
 }
 

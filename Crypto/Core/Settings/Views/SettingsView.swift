@@ -7,6 +7,7 @@ struct SettingsView: View {
     let coffeeURL = URL(string: "https://www.buymeacoffee.com/")!
     let coingeckoURL = URL(string: "https://www.coingecko.com/en/api/documentation")!
     let personalURL = URL(string: "https://github.com/cjokello")!
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         NavigationView {
@@ -32,7 +33,12 @@ struct SettingsView: View {
                 .navigationTitle("Settings")
                 .toolbar {
                     ToolbarItem(placement: .navigationBarLeading) {
-                        XMarkButton()
+                        Button {
+                            dismiss()
+                        } label: {
+                            Image(systemName: "xmark")
+                                .font(.headline)
+                        }
                     }
                 }
             }

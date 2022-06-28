@@ -10,8 +10,6 @@ struct PortfolioView: View {
     
     @State private var showCheckmark: Bool = false
     
-    @Environment(\.dismiss) private var dismiss
-    
     var body: some View {
         NavigationView {
             ScrollView{
@@ -25,13 +23,14 @@ struct PortfolioView: View {
                     }
                 }
             }
+            .background(
+                Color.theme.background
+                    .ignoresSafeArea()
+            )
             .navigationTitle("Edit Portfolio")
             .toolbar(content: {
                 ToolbarItem(placement: .navigationBarLeading) {
                     XMarkButton()
-                        .onTapGesture {
-                            dismiss()
-                        }
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     trailingNavBarButtons

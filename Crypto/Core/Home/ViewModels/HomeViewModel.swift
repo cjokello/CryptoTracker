@@ -24,10 +24,10 @@ class HomeViewModel: ObservableObject {
     init() {
         // the code below was meant to imitate downloading data from the API
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-//            self.allCoins.append(DeveloperPreview.instance.coin)
-//            self.portfolioCoins.append(DeveloperPreview.instance.coin)
-        }
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+////            self.allCoins.append(DeveloperPreview.instance.coin)
+////            self.portfolioCoins.append(DeveloperPreview.instance.coin)
+//        }
         
         addSubscribers()
     }
@@ -165,7 +165,7 @@ class HomeViewModel: ObservableObject {
         
         let percentageChange = ((portfolioValue - previousValue)/previousValue)
         
-        let portfolio = StatisticModel(title: "Portfolio Value", value: portfolioValue.asCurrencyWith2Decimals(), percentageChange: percentageChange)
+        let portfolio = StatisticModel(title: "Portfolio Value", value: portfolioValue.asCurrencyWith2Decimals()) 
         
         stats.append(contentsOf: [
             marketCap,
